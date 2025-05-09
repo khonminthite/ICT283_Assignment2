@@ -1,0 +1,39 @@
+<map id="Logic.h" name="Logic.h">
+<area shape="rect" id="Node000001" title="A helper class for main.cpp Handles task such as displaying menu, converting of data types,..." alt="" coords="417,5,481,37"/>
+<area shape="rect" id="Node000002" href="$_bst_8h.html" title="Binary Search Tree." alt="" coords="5,244,58,276"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="417,26,337,31,236,41,140,59,104,72,79,87,55,119,41,157,34,195,33,229,27,229,29,195,36,155,50,116,75,83,101,67,139,54,235,36,336,25,417,21"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="93,324,165,356"/>
+<area shape="poly" id="edge17_Node000001_Node000003" title=" " alt="" coords="417,27,351,34,271,45,197,63,169,74,151,87,133,111,121,139,113,169,111,200,114,259,123,308,118,309,109,260,105,199,108,168,115,137,128,108,147,83,167,69,196,58,270,40,351,28,417,22"/>
+<area shape="rect" id="Node000004" href="$_date_8h.html" title="Class for storing date values. Date data are split into day,month and year and stored as unsigned int..." alt="" coords="133,244,192,276"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="417,28,356,34,282,46,215,63,190,74,173,87,163,102,156,120,149,158,151,196,157,229,151,230,146,197,144,158,151,118,158,100,170,83,187,70,213,58,281,41,355,29,417,22"/>
+<area shape="rect" id="Node000005" href="$_time_8h.html" title="Time class for storing 24 hour time Splits in hour and minute before storing as unsigned int Expects ..." alt="" coords="223,244,283,276"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="439,39,375,118,277,234,273,231,371,115,435,36"/>
+<area shape="rect" id="Node000006" href="$_weather_8h.html" title="Class for storing Wind log details such as date, time, wind speed, solar radiation and air temperatur..." alt="" coords="212,165,294,196"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="433,39,336,119,286,158,283,153,333,115,429,35"/>
+<area shape="rect" id="Node000007" href="$_validator_8h.html" title="Collection of functions for checking validity of data." alt="" coords="447,85,531,117"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="459,36,476,70,472,72,454,39"/>
+<area shape="rect" id="Node000009" href="$_bst_weather_helper_8h.html" title="Holds all the functions that is used as parameter for BST functions in the program." alt="" coords="184,85,322,117"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="418,38,306,81,304,76,416,33"/>
+<area shape="rect" id="Node000010" href="$_vector_8h.html" title="a wrapper class for std:vector" alt="" coords="555,85,625,117"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="478,35,551,75,548,80,475,40"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="650,85,714,117"/>
+<area shape="poly" id="edge18_Node000001_Node000013" title=" " alt="" coords="482,31,636,82,635,87,480,36"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="739,85,849,117"/>
+<area shape="poly" id="edge19_Node000001_Node000014" title=" " alt="" coords="481,27,725,81,723,86,480,32"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="874,85,931,117"/>
+<area shape="poly" id="edge20_Node000001_Node000015" title=" " alt="" coords="481,23,640,41,747,59,859,82,858,87,746,64,639,47,480,28"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="955,85,1023,117"/>
+<area shape="poly" id="edge21_Node000001_Node000016" title=" " alt="" coords="481,22,672,39,804,57,941,82,940,87,803,62,672,45,481,27"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="52,274,100,312,97,316,49,278"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="158,277,144,311,139,309,153,275"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="230,279,167,318,164,313,228,274"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="237,199,193,236,189,232,234,195"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="256,197,256,229,250,229,250,197"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="462,165,516,196"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="492,117,492,149,486,149,486,117"/>
+<area shape="poly" id="edge13_Node000009_Node000006" title=" " alt="" coords="256,117,256,149,250,149,250,117"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="551,165,606,196"/>
+<area shape="poly" id="edge15_Node000010_Node000011" title=" " alt="" coords="590,117,585,150,580,149,585,117"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="630,165,726,196"/>
+<area shape="poly" id="edge16_Node000010_Node000012" title=" " alt="" coords="609,115,651,152,648,156,605,119"/>
+</map>

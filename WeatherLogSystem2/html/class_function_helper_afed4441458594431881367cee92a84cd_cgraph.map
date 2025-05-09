@@ -1,0 +1,5 @@
+<map id="FunctionHelper::FindSumSolarRadMonth" name="FunctionHelper::FindSumSolarRadMonth">
+<area shape="rect" id="Node000001" title="Function 4." alt="" coords="5,5,204,58"/>
+<area shape="rect" id="Node000002" href="$class_logic.html#ac4a11ea3e7506d1e02f8d933f2f0d557" title="Converts solar radiation from W per 10 min to kWh." alt="" coords="252,5,439,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,29,236,29,236,34,204,34"/>
+</map>

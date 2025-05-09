@@ -1,0 +1,110 @@
+# depslib dependency file v1.0
+1711160741 source:d:\programming\code blocks\weatherlogsystem2\time.cpp
+	"Time.h"
+
+1711160471 d:\programming\code blocks\weatherlogsystem2\time.h
+	<iostream>
+
+1711160472 source:d:\programming\code blocks\weatherlogsystem2\timetest.cpp
+	"TIME.H"
+	<iostream>
+
+1711160095 source:d:\programming\code blocks\weatherlogsystem2\date.cpp
+	"Date.h"
+
+1711160095 d:\programming\code blocks\weatherlogsystem2\date.h
+	<iostream>
+
+1711161024 source:d:\programming\code blocks\weatherlogsystem2\weather.cpp
+	"Weather.h"
+
+1711973238 d:\programming\code blocks\weatherlogsystem2\weather.h
+	"DATE.H"
+	"TIME.H"
+
+1711161903 source:d:\programming\code blocks\weatherlogsystem2\weathertest.cpp
+	"Weather.h"
+	<iostream>
+
+1709784650 source:d:\programming\code blocks\weatherlogsystem2\validator.cpp
+	"Validator.h"
+
+1709613514 d:\programming\code blocks\weatherlogsystem2\validator.h
+	<regex>
+
+1711264507 source:d:\programming\code blocks\weatherlogsystem2\bstweatherhelper.cpp
+	"BstWeatherHelper.h"
+
+1711973154 d:\programming\code blocks\weatherlogsystem2\bstweatherhelper.h
+	"Weather.h"
+
+1711264889 source:d:\programming\code blocks\weatherlogsystem2\logic.cpp
+	"Logic.h"
+
+1711200329 d:\programming\code blocks\weatherlogsystem2\logic.h
+	"Bst.h"
+	"Date.h"
+	"Time.h"
+	"Weather.h"
+	"Validator.h"
+	"BstWeatherHelper.h"
+	"Vector.h"
+	<iostream>
+	<fstream>
+	<unordered_map>
+	<cmath>
+	<numeric>
+
+1711341003 d:\programming\code blocks\weatherlogsystem2\bst.h
+	<iostream>
+
+1711200753 source:d:\programming\code blocks\weatherlogsystem2\logictest.cpp
+	"Logic.h"
+	"Weather.h"
+	<iostream>
+
+1711341486 source:d:\programming\code blocks\weatherlogsystem2\functionhelper.cpp
+	"FUNCTIONHELPER.H"
+
+1711111982 d:\programming\code blocks\weatherlogsystem2\functionhelper.h
+	"Logic.h"
+	<iostream>
+	<cstdio>
+
+1711111986 source:d:\programming\code blocks\weatherlogsystem2\main.cpp
+	"Logic.h"
+	"Validator.h"
+	"FunctionHelper.h"
+	"Date.h"
+	"Time.h"
+	"Weather.h"
+	"Bst.h"
+	<iostream>
+	<sstream>
+
+1711195233 source:d:\programming\code blocks\weatherlogsystem2\bsttest.cpp
+	"Bst.h"
+	"BstWeatherHelper.h"
+
+1709610271 source:d:\programming\code blocks\weatherlogsystem2\datetest.cpp
+	"Date.h"
+	<iostream>
+
+1711264523 source:d:\programming\code blocks\weatherlogsystem2\bstweatherhelpertest.cpp
+	"BstWeatherHelper.h"
+
+1711930157 d:\programming\code blocks\weatherlogsystem2\vector.h
+	<vector>
+	<initializer_list>
+
+1711196498 source:d:\programming\code blocks\weatherlogsystem2\functionhelpertest.cpp
+	"FunctionHelper.h"
+
+1709614559 source:d:\programming\code blocks\weatherlogsystem2\validatortest.cpp
+	"Validator.h"
+	<iostream>
+
+1711256941 source:d:\programming\code blocks\weatherlogsystem2\vectortest.cpp
+	"Vector.h"
+	<iostream>
+

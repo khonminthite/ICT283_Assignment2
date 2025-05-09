@@ -1,0 +1,12 @@
+<map id="BstWeatherHelper.h" name="BstWeatherHelper.h">
+<area shape="rect" id="Node000001" title="Holds all the functions that is used as parameter for BST functions in the program." alt="" coords="16,5,154,37"/>
+<area shape="rect" id="Node000002" href="$_weather_8h.html" title="Class for storing Wind log details such as date, time, wind speed, solar radiation and air temperatur..." alt="" coords="44,85,126,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,37,88,70,82,70,82,37"/>
+<area shape="rect" id="Node000003" href="$_date_8h.html" title="Class for storing date values. Date data are split into day,month and year and stored as unsigned int..." alt="" coords="5,165,74,196"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,118,58,153,54,150,74,116"/>
+<area shape="rect" id="Node000005" href="$_time_8h.html" title="Time class for storing 24 hour time Splits in hour and minute before storing as unsigned int Expects ..." alt="" coords="98,165,162,196"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="96,116,116,150,111,153,91,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="49,244,121,276"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="51,195,71,230,66,232,46,198"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="124,198,104,232,99,230,119,195"/>
+</map>

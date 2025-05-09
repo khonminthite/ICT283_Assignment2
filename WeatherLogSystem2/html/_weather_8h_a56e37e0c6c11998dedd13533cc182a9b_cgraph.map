@@ -1,0 +1,11 @@
+<map id="operator&lt;" name="operator&lt;">
+<area shape="rect" id="Node000001" title="Operator overload of &lt; comparison. Compares Weather." alt="" coords="5,33,82,65"/>
+<area shape="rect" id="Node000002" href="$class_weather.html#ac2aeb6a697f1dcf103d94749365eb82b" title="Get m_time." alt="" coords="130,5,257,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,39,114,33,115,39,82,45"/>
+<area shape="rect" id="Node000003" href="$_time_8cpp.html#a1055bc137c2e59ddb048b050b5c21ba6" title="Operator overload of &lt; comparison. Compares hour and minute." alt="" coords="155,61,232,93"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="82,54,141,65,140,70,81,59"/>
+<area shape="rect" id="Node000004" href="$class_time.html#aaf65e0dc73514ffab9b3dd643cef9bdb" title="Get the Hour object." alt="" coords="311,33,416,65"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="231,68,295,58,296,63,232,74"/>
+<area shape="rect" id="Node000005" href="$class_time.html#a86302564cc0783b402dc5f0e137a43c1" title="Get the Minute object." alt="" coords="305,89,422,121"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="232,81,290,90,289,96,231,86"/>
+</map>

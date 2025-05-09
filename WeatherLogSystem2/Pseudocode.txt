@@ -1,0 +1,940 @@
+DateClass
+    integer day, month, year
+
+    Constructor DateClass with parameters day, month, year
+        Set day to the value of d
+        Set month to the value of m
+        Set year to the value of y
+    End Constructor
+
+    Function GetDay
+        Return day
+    End Function
+
+    Function GetMonth
+        Return month
+    End Function
+
+    Function GetYear
+        Return year
+    End Function
+
+    Procedure SetDay with parameter d
+        Set day to the value of d
+    End Procedure
+
+    Procedure SetMonth with parameter m
+        Set month to the value of m
+    End Procedure
+
+    Procedure SetYear with parameter y
+        Set year to the value of y
+    End Procedure
+
+    Function DisplayFullDate
+        Return day as string + "/" + month as string + "/" + year as string
+    End Function
+
+TimeClass
+    integer hour, minute
+
+    Constructor TimeClass with parameters hour, minute
+        Set hour to the value of h
+        Set minute to the value of m
+    End Constructor
+
+    Function GetHour
+        Return hour
+    End Function
+
+    Function GetMinute
+        Return minute
+    End Function
+
+    Procedure SetHour with parameter h
+        Set hour to the value of h
+    End Procedure
+
+    Procedure SetMinute with parameter m
+        Set minute to the value of m
+    End Procedure
+
+    Function Display24HTime
+        Initialize result as an empty string
+        If hour is less than 10
+            Append "0" and hour to result
+        Else
+            Append hour to result
+        End If
+        Append ":" to result
+        If minute is less than 10
+            Append "0" and minute to result
+        Else
+            Append minute to result
+        End If
+        Return result
+    End Function
+
+    Function LessThan with parameters lt, rt
+        If hour of lt is not equal to hour of rt
+            Return hour of lt is less than hour of rt
+        End If
+        Return minute of lt is less than minute of rt
+    End Function
+
+    Function GreaterThan with parameters lt, rt
+        If hour of lt is not equal to hour of rt
+            Return hour of lt is greater than hour of rt
+        End If
+        Return minute of lt is greater than minute of rt
+    End Function
+
+    Function Equal with parameters lt, rt
+        Return hour of lt is equal to hour of rt and minute of lt is equal to minute of rt
+    End Function
+
+WeatherClass
+    Date date
+    Time time
+    float windSpeed, solarRad, airTemp
+
+    Constructor WeatherClass
+        Initialize windSpeed to 0.0
+        Initialize solarRad to 0.0
+        Initialize airTemp to 0.0
+    End Constructor
+
+    Destructor WeatherClass
+        // No specific actions needed
+    End Destructor
+
+    Function GetDate
+        Return date
+    End Function
+
+    Function GetTime
+        Return time
+    End Function
+
+    Function GetWindSpeed
+        Return windSpeed
+    End Function
+
+    Function GetSolarRadiation
+        Return solarRad
+    End Function
+
+    Function GetAirTemperature
+        Return airTemp
+    End Function
+
+    Procedure SetDate with parameter date
+        Set this.date to the value of date
+    End Procedure
+
+    Procedure SetTime with parameter time
+        Set this.time to the value of time
+    End Procedure
+
+    Procedure SetWindSpeed with parameter windSpeed
+        Set this.windSpeed to the value of windSpeed
+    End Procedure
+
+    Procedure SetSolarRadiation with parameter solar
+        Set this.solarRad to the value of solar
+    End Procedure
+
+    Procedure SetAirTemp with parameter temp
+        Set this.airTemp to the value of temp
+    End Procedure
+
+    Function LessThan with parameters lw, rw
+        Return time of lw is less than time of rw
+    End Function
+
+    Function GreaterThan with parameters lw, rw
+        Return time of lw is greater than time of rw
+    End Function
+
+    Function Equal with parameters lw, rw
+        Return time of lw is equal to time of rw
+    End Function
+
+BstClass
+    Node root
+
+    Constructor BstClass
+        Set root to null
+    End Constructor
+
+    Constructor BstClass with parameter otherTree
+        If otherTree's root is null
+            Set root to null
+        Else
+            Call CopyTree with root and otherTree's root
+        End If
+    End Constructor
+
+    Destructor BstClass
+        Call Destroy with root
+    End Destructor
+
+    Procedure DeleteTree
+        Call Destroy with root
+    End Procedure
+
+    Procedure Destroy with parameter p
+        If p is not null
+            Call Destroy with p's left child
+            Call Destroy with p's right child
+            Delete p
+            Set p to null
+        End If
+    End Procedure
+
+    Function Assign with parameter otherTree
+        If this is not the same as otherTree
+            If root is not null
+                Call Destroy with root
+            End If
+            If otherTree's root is null
+                Set root to null
+            Else
+                Call CopyTree with root and otherTree's root
+            End If
+        End If
+        Return this
+    End Function
+
+    Procedure CopyTree with parameters copiedTreeRoot, otherTreeRoot
+        If otherTreeRoot is null
+            Set copiedTreeRoot to null
+        Else
+            Create new node for copiedTreeRoot with value from otherTreeRoot
+            Call CopyTree with copiedTreeRoot's left child and otherTreeRoot's left child
+            Call CopyTree with copiedTreeRoot's right child and otherTreeRoot's right child
+        End If
+    End Procedure
+
+    Function Search with parameter searchItem
+        Return Search with root and searchItem
+    End Function
+
+    Function Search with parameters root, searchItem
+        If root is null
+            Return false
+        Else
+            If root's value equals searchItem
+                Return true
+            Else if root's value is greater than searchItem
+                Return Search with root's left child and searchItem
+            Else if root's value is less than searchItem
+                Return Search with root's right child and searchItem
+            End If
+        End If
+        Return false
+    End Function
+
+    Function Insert with parameter insertItem
+        If Search with insertItem returns false
+            Create new node for insertItem
+            If root is null
+                Set root to new node
+            Else
+                Call Insert with new node and root
+            End If
+            Return true
+        End If
+        Return false
+    End Function
+
+    Procedure Insert with parameters newNode, parent
+        If newNode's value is less than parent's value
+            If parent's left child is null
+                Set parent's left child to newNode
+            Else
+                Call Insert with newNode and parent's left child
+            End If
+        Else
+            If parent's right child is null
+                Set parent's right child to newNode
+            Else
+                Call Insert with newNode and parent's right child
+            End If
+        End If
+    End Procedure
+
+    Function DeleteNode with parameter deleteItem
+        If Search with deleteItem returns false
+            Return false
+        End If
+        Create pointers current and trailCurrent for traversal
+        Set current to root and trailCurrent to root
+        While current is not null and deleteItem is not found
+            If current's value equals deleteItem
+                Set found to true
+            Else
+                Set trailCurrent to current
+                If current's value is greater than deleteItem
+                    Set current to current's left child
+                Else
+                    Set current to current's right child
+                End If
+            End If
+        End While
+        If current is null
+            Return false
+        Else if found
+            Call DeleteFromTree with appropriate node based on trailCurrent and deleteItem
+            Return true
+        End If
+        Return false
+    End Function
+
+    Procedure DeleteFromTree with parameter p
+        If p is null
+            Print error message
+        Else if both p's left and right children are null
+            Delete p
+            Set p to null
+        Else if p's left child is null
+            Set p to p's right child
+            Delete p
+        Else if p's right child is null
+            Set p to p's left child
+            Delete p
+        Else
+            Find rightmost node of p's left child
+            Set p's value to the found node's value
+            Delete the found node
+        End If
+    End Procedure
+
+    Function TreeNodeCount
+        Return NodeCount with root
+    End Function
+
+    Function NodeCount with parameter p
+        If p is null
+            Return 0
+        Else
+            Return 1 plus NodeCount with p's left child plus NodeCount with p's right child
+        End If
+    End Function
+
+    Procedure InOrderTraversal
+        Call InOrder with root
+    End Procedure
+
+    Procedure InOrder with parameter p
+        If p is not null
+            Call InOrder with p's left child
+            Print p's value
+            Call InOrder with p's right child
+        End If
+    End Procedure
+
+    Procedure InOrderTraversal with parameter visit
+        Call InOrder with root and visit
+    End Procedure
+
+    Procedure InOrder with parameters p, visit
+        If p is not null
+            Call InOrder with p's left child and visit
+            Call visit with p's value
+            Call InOrder with p's right child and visit
+        End If
+    End Procedure
+
+    Procedure PreOrderTraversal
+        Call PreOrder with root
+    End Procedure
+
+    Procedure PreOrder with parameter p
+        If p is not null
+            Print p's value
+            Call PreOrder with p's left child
+            Call PreOrder with p's right child
+        End If
+    End Procedure
+
+    Procedure PreOrderTraversal with parameter visit
+        Call PreOrder with root and visit
+    End Procedure
+
+    Procedure PreOrder with parameters p, visit
+        If p is not null
+            Call visit with p's value
+            Call PreOrder with p's left child and visit
+            Call PreOrder with p's right child and visit
+        End If
+    End Procedure
+
+    Procedure PostOrderTraversal
+        Call PostOrder with root
+    End Procedure
+
+    Procedure PostOrder with parameter p
+        If p is not null
+            Call PostOrder with p's left child
+            Call PostOrder with p's right child
+            Print p's value
+        End If
+    End Procedure
+
+    Procedure PostOrderTraversal with parameter visit
+        Call PostOrder with root and visit
+    End Procedure
+
+    Procedure PostOrder with parameters p, visit
+        If p is not null
+            Call PostOrder with p's left child and visit
+            Call PostOrder with p's right child and visit
+            Call visit with p's value
+        End If
+    End Procedure
+
+    Function GetSumValueFloat
+        Initialize total to 0
+        Return SumValueFloat with root and total
+    End Function
+
+    Function SumValueFloat with parameters p, total
+        If p is not null
+            Call SumValueFloat with p's left child and total
+            Add p's value to total
+            Call SumValueFloat with p's right child and total
+            Return total
+        End If
+        Return 0
+    End Function
+
+    Function GetSumValueFloat with parameter visit
+        Initialize total to 0
+        Return SumValueFloat with root, visit, and total
+    End Function
+
+    Function SumValueFloat with parameters p, visit, total
+        If p is not null
+            Call SumValueFloat with p's left child, visit, and total
+            Add visit(p's value) to total
+            Call SumValueFloat with p's right child, visit, and total
+            Return total
+        End If
+        Return 0
+    End Function
+
+    Template Function InOrderTraversalFloat with parameter visit
+        Return InOrderFloat with root and visit
+    End Template Function
+
+    Template Function InOrderFloat with parameters p, visit
+        If p is not null
+            Call InOrderFloat with p's left child and visit
+            Call visit with p's value
+            Call InOrderFloat with p's right child and visit
+            Return the result of visit(p's value)
+        End If
+        Return 0.0f
+    End Template Function
+
+ValidatorClass
+    Function IsValidDate with parameters day, month, year
+        If year is not between 1000 and 9999
+            Return false
+        If month is not between 1 and 12
+            Return false
+        If day is not between 1 and 31
+            Return false
+        If month is February
+            If year is a leap year
+                Return day is less than or equal to 29
+            Else
+                Return day is less than or equal to 28
+        If month is April, June, September, or November
+            Return day is less than or equal to 30
+        Return true
+    End Function
+
+    Function IsValidDate with parameters month, year
+        If year is not between 1000 and 9999
+            Return false
+        If month is not between 1 and 12
+            Return false
+        Return true
+    End Function
+
+    Function IsValidMonth with parameter month
+        Return month is between 1 and 12
+    End Function
+
+    Function IsLeapYear with parameter year
+        Return year is divisible by 4 and not divisible by 100, or year is divisible by 400
+    End Function
+
+    Function IsValid24HourTime with parameters hour, minute
+        Return hour is between 0 and 23 and minute is between 0 and 59
+    End Function
+
+    Function IsNumber with parameter input
+        Return input matches the regex for a positive number that may have a decimal point after at least one digit and has no leading zeros
+    End Function
+
+    Function IsInteger with parameter input
+        Return input matches the regex for a positive number that does not have a decimal point and has no leading zeros
+    End Function
+
+VectorClass
+        Constructor VectorClass with no parameters
+            Default constructor
+        End Constructor
+
+        Constructor VectorClass with size parameter
+            Initialize data with specified size
+        End Constructor
+
+        Constructor VectorClass with size and initial value parameters
+            Initialize data with specified size and initial value
+        End Constructor
+
+        Copy Constructor VectorClass with parameter v
+            Initialize data with copy of v's data
+        End Copy Constructor
+
+        Move Constructor VectorClass with parameter v
+            Initialize data with move of v's data
+        End Move Constructor
+
+        Destructor VectorClass
+            Default destructor
+        End Destructor
+
+        Assignment Operator VectorClass with parameter v
+            If this is not the same as v
+                Assign v's data to this's data
+            Return this
+        End Assignment Operator
+
+        Move Assignment Operator VectorClass with parameter v
+            If this is not the same as v
+                Move v's data to this's data
+            Return this
+        End Move Assignment Operator
+
+        Element Access Operator with parameter index
+            Return reference to element at index in data
+        End Element Access Operator
+
+        Element Access Operator with parameter index (const version)
+            Return const reference to element at index in data
+        End Element Asscess Operator
+
+        Function size
+            Return size of data
+        End Function
+
+        Function capacity
+            Return capacity of data
+        End Function
+
+        Function empty
+            Return whether data is empty
+        End Function
+
+        Function push_back with parameter value
+            Add value to end of data
+        End Function
+
+        Function push_back with parameter value (rvalue reference)
+            Move value to end of data
+        End Function
+
+        Function pop_back
+            Remove last element from data
+        End Function
+
+        Function insert with parameters index, value
+            Insert value at the specified index in the vector
+        End Function
+
+        Function erase with parameter index
+            Remove the element at the specified index from the vector
+        End Function
+
+        Function at with parameter index
+            Return the element at the specified index in the vector
+        End Function
+
+        Function at with parameter index (const version)
+            Return the element at the specified index in the vector (const version)
+        End Function
+
+        Function reserve with parameter new_capacity
+            Reserve new_capacity in data
+        End Function
+
+        Function resize with parameter new_size
+            Resize data to new_size
+        End Function
+
+        Function resize with parameters new_size and value
+            Resize data to new_size, initializing new elements with value
+        End Function
+
+        Function begin
+            Return iterator pointing to first element of data
+        End Function
+
+        Function end
+            Return iterator pointing to past-the-end element of data
+        End Function
+
+        Function begin (const version)
+            Return const iterator pointing to first element of data
+        End Function
+
+        Function end (const version)
+            Return const iterator pointing to past-the-end element of data
+        End Function
+
+        Function cbegin
+            Return const iterator pointing to first element of data
+        End Function
+
+        Function cend
+            Return const iterator pointing to past-the-end element of data
+        End Function
+
+        Constructor VectorClass with initializer list init
+            Initialize data with init
+        End Constructor
+
+BstWeatherHelperClass
+    Function GetWeatherWindSpeed with parameter weather
+        Return the wind speed from the weather object
+    End Function
+
+    Function GetWeatherAirTemp with parameter weather
+        Return the air temperature from the weather object
+    End Function
+
+    Function GetWeatherSolarRad with parameter weather
+        Return the solar radiation from the weather object
+    End Function
+
+LogicClass
+    Function LoadMultiDataFileCSV with parameters inputFile, windLog
+        Initialize fileName and dataFile
+        While there is a line to read in inputFile
+            If fileName is not empty
+                Open dataFile with "data/" + fileName
+                If dataFile is open
+                    Print loading message
+                    If LoadDataFileCSV fails
+                        Print error message
+                    Else
+                        Print success message
+                    Close dataFile
+                Else
+                    Print error opening file message
+        End While
+    End Function
+
+    Function LoadDataFileCSV with parameters inputFile, windLog
+        Initialize recordCount, validateHelp, line, column, row, dateTime, date, time, dateField, timeField, day, month, year, hour, minute, tempDate, tempTime, tempLog, re
+        Get and ignore CSV header
+        Initialize columnIndices
+        While there is a line in inputFile
+            If line is not empty and not just commas
+                Process each column in line
+                Extract date and time from WAST column
+                Split Date into day, month, year
+                Remove leading zeros and validate date
+                Split Time into hour and minute
+                Remove leading zeros and validate time
+                Validate and set wind speed, solar radiation, and air temperature
+                Try to insert Weather object into map
+                If exception caught
+                    Print error message
+                    Set re to false
+                    Break loop
+                Increment recordCount
+        Return re
+    End Function
+
+    Function InsertWeatherToMap with parameters windLog, tempLog
+        Extract year, month, day from tempLog
+        If year does not exist in windLog
+            Create new maps for month and day
+            Insert tempLog into day map
+            Insert day map into month map
+            Insert month map into windLog with year
+        Else if month does not exist in windLog[year]
+            Create new map for day
+            Insert tempLog into day map
+            Insert day map into windLog[year] with month
+        Else if day does not exist in windLog[year][month]
+            Create new BST and insert tempLog
+            Insert BST into windLog[year][month] with day
+        Else
+            Insert tempLog directly into windLog[year][month][day]
+    End Function
+
+    Function RemoveLeadingZeros with parameter input
+        Return input with leading zeros removed
+    End Function
+
+    Function AverageWindSpeedMonth with parameters windLog, month, year
+        Initialize totalWindSpeed, count, BWH
+        If year exists in windLog
+            If month exists in windLog[year]
+                For each day in windLog[year][month]
+                    Add sum of wind speeds to totalWindSpeed
+                    Increment count
+                End For
+            Else
+                Return -1
+        Else
+            Return -1
+        Return totalWindSpeed divided by count
+    End Function
+
+    Function StandardDeviationWindSpeed with parameters windLog, month, year
+        Initialize totalWindSpeed, windSpeeds
+        If year exists in windLog
+            If month exists in windLog[year]
+                For each day in windLog[year][month]
+                    Add wind speeds to windSpeeds
+                End For
+            Else
+                Return -1
+        Else
+            Return -1
+        Calculate mean of windSpeeds
+        Calculate variance of windSpeeds
+        Return square root of variance
+    End Function
+
+    Function AverageAirTemperatureMonth with parameters windLog, month, year
+        Initialize totalAirTemperature, count, BWH
+        If year exists in windLog
+            If month exists in windLog[year]
+                For each day in windLog[year][month]
+                    Add sum of air temperatures to totalAirTemperature
+                    Increment count
+                End For
+            Else
+                Return -1
+        Else
+            Return -1
+        Return totalAirTemperature divided by count
+    End Function
+
+    Function StandardDeviationAirTemperature with parameters windLog, month, year
+        Initialize totalAirTemperature, airTemperatures
+        If year exists in windLog
+            If month exists in windLog[year]
+                For each day in windLog[year][month]
+                    Add air temperatures to airTemperatures
+                End For
+            Else
+                Return -1
+        Else
+            Return -1
+        Calculate mean of airTemperatures
+        Calculate variance of airTemperatures
+        Return square root of variance
+    End Function
+
+    Function SumSolarRadiationMonth with parameters windLog, month, year
+        Initialize totalSolarRadiation, solarRads
+        If year exists in windLog
+            If month exists in windLog[year]
+                For each day in windLog[year][month]
+                    If solar radiation is greater than 100
+                        Add solar radiation to solarRads
+                    End If
+                End For
+            Else
+                Return -1
+        Else
+            Return -1
+        Return totalSolarRadiation
+    End Function
+
+    Function IntMonthToString with parameter month
+        Switch on month
+            Case 1: Return "January"
+            Case 2: Return "February"
+            Case 3: Return "March"
+            Case 4: Return "April"
+            Case 5: Return "May"
+            Case 6: Return "June"
+            Case 7: Return "July"
+            Case 8: Return "August"
+            Case 9: Return "September"
+            Case 10: Return "October"
+            Case 11: Return "November"
+            Case 12: Return "December"
+            Default: Print error message and Return "ERROR"
+    End Function
+
+    Function ConvertWindMStoKMH with parameter windSpeed
+        If windSpeed is less than 0
+            Return 0
+        Return windSpeed multiplied by 3.6
+    End Function
+
+    Function ConvertSolarRadiationWMtoKWH with parameter radiation
+        If radiation is greater than 0
+            Return (radiation/6) divided by 1000
+        Return 0
+    End Function
+
+    Function WriteAppendFile with parameters fileName, output
+        Open OutputFile in append mode with fileName
+        Append output and a newline to OutputFile
+        Close OutputFile
+    End Function
+
+    Function calculateSPCC with parameters x, y
+        If x and y are not the same size
+            Print error message and Return NaN
+        Calculate sum of x and y
+        Calculate mean of x and y
+        Calculate sum of squared differences from the mean for x and y
+        Calculate square root of the product of the variances of x and y
+        If denominator is 0
+            Print error message and Return NaN
+        Return sum of squared differences divided by the denominator
+    End Function
+
+    Function extractMonthData with parameters windLog, month, year, windSpeeds, airTemps, solarRads
+        If year exists in windLog
+            If month exists in windLog[year]
+                For each day in windLog[year][month]
+                    Add wind speeds, air temperatures, and solar radiation to their respective vectors
+                End For
+            End If
+        End If
+    End Function
+
+FunctionHelperClass
+    Function DisplayMenu
+        Initialize menu
+        Append menu options to menu
+        Return menu
+    End Function
+
+    Function FindAverageWindSpeedAndStandardDeviationMonth with parameters windLog, monthInput, yearInput
+        Initialize Logic object, result
+        Get average wind speed and standard deviation for the month
+        If no data found
+            Append "No Data" message to result
+        Else
+            Convert wind speed to km/h and append to result
+        Return result
+    End Function
+
+    Function FindAverageAirTemperatureAndStandardDeviationMonth with parameters windLog, monthInput, yearInput
+        Initialize Logic object, result
+        Get average air temperature and standard deviation for the month
+        If no data found
+            Append "No Data" message to result
+        Else
+            Append average temperature and standard deviation to result
+        Return result
+    End Function
+
+    Function FindAverageTemperatureYear with parameter windLog, yearInput
+        Initialize result
+        Loop for each month of the year
+            Append result of FindAverageAirTemperatureAndStandardDeviationMonth to result
+        Return result
+    End Function
+
+    Function FindSumSolarRadMonth with parameters windLog, yearInput
+        Initialize Logic object, result
+        Loop for each month of the year
+            Get total solar radiation of the month
+            If no data found
+                Append "No Data" message to result
+            Else
+                Convert solar radiation to KWH/M2 and append to result
+        Return result
+    End Function
+
+    Function OutputFileAverageWindTempSolarMonth with parameters windLog, yearInput
+        Initialize Logic object, outputStr
+        Loop for each month of the year
+            Get average wind speed, standard deviation of wind speed, average air temperature, standard deviation of air temperature, and total solar radiation of the month
+            If no data found for any of the metrics
+                Continue to next month
+            Else
+                Convert and append data to outputStr
+        Write outputStr to file
+    End Function
+
+    Function FindsPCCForGivenMonth with parameters windLog, month
+        Initialize Logic object, result, vectors for wind speeds, air temperatures, solar radiation
+        Loop through all years in windLog
+            Extract month data for wind speeds, air temperatures, solar radiation
+            Calculate sPCC for each year
+            Aggregate sPCC values
+        Calculate average sPCC values
+        Append average sPCC values to result
+        Return result
+    End Function
+
+    Function ReloadData with parameter windLog
+        Clear windLog
+        Reload data from file
+        If file cannot be opened
+            Print error message
+    End Function
+
+MainFunction
+    Initialize Logic, Validator, and FunctionHelper objects
+    Initialize windLog map
+
+    Open indexFile with "data/data_source.txt"
+    If indexFile cannot be opened
+        Print error message and exit with code 1
+    End If
+
+    Load data from indexFile into windLog using Logic object
+    Close indexFile
+
+    Set flag to true for continuous loop
+    Initialize input string
+
+    While flag is true
+        Display menu using FunctionHelper object
+        Get user input
+
+        If input is "1"
+            Prompt user for month and year
+            Validate month and year inputs
+            Display average wind speed and standard deviation for the specified month and year using Logic object
+        Else if input is "2"
+            Prompt user for year
+            Validate year input
+            Display average temperature for the specified year using FunctionHelper object
+        Else if input is "3"
+            Prompt user for month
+            Validate month input
+            Display sPCC for the specified month using FunctionHelper object
+        Else if input is "4"
+            Prompt user for year
+            Validate year input
+            Output average wind speed, temperature, and solar radiation to a CSV file for the specified year using FunctionHelper object
+        Else if input is "5"
+            Reload data from file using FunctionHelper object
+        Else if input is "6"
+            Set flag to false to exit loop
+        Else
+            Print error message for unknown command
+        End If
+    End While
+
+    Return 0

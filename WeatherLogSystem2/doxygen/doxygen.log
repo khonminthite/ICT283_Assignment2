@@ -1,0 +1,88 @@
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Weather.h:19:10: warning: non-portable path to file '"Date.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/DATE.H:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Weather.h:19:10: warning: non-portable path to file '"Date.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/DATE.H:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Date.h:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Date.h:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/FunctionHelper.cpp:10:10: warning: non-portable path to file '"FunctionHelper.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Time.h:20:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/TimeTest.cpp:18:10: warning: non-portable path to file '"Time.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/TIME.H:20:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Validator.h:13:10: fatal error: 'regex' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Validator.h:13:10: fatal error: 'regex' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Vector.h:14:10: fatal error: 'vector' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Weather.h:19:10: warning: non-portable path to file '"Date.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/DATE.H:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Weather.h:19:10: warning: non-portable path to file '"Date.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/DATE.H:15:10: fatal error: 'iostream' file not found [clang]
+D:/programming/Code blocks/WeatherLogSystem2/BstTest.cpp:2: warning: the name 'BstTest.spp' supplied as the argument in the \file statement is not an input file
+D:/programming/Code blocks/WeatherLogSystem2/Bst.h:635: warning: no matching class member found for 
+  template < T >
+  void Bst< T >::PreOrderTraversal(void(*visit)(T &item)) const
+Possible candidates:
+  'void Bst< T >::PreOrderTraversal() const' at line 110 of file D:/programming/Code blocks/WeatherLogSystem2/Bst.h
+  'void Bst< T >::PreOrderTraversal(void(*visit)(T &)) const' at line 130 of file D:/programming/Code blocks/WeatherLogSystem2/Bst.h
+D:/programming/Code blocks/WeatherLogSystem2/Bst.h:641: warning: no matching class member found for 
+  template < T >
+  void Bst< T >::PreOrder(Node< T > *p, void(*visit)(T &item)) const
+Possible candidates:
+  'void Bst< T >::PreOrder(Node< T > *p) const' at line 232 of file D:/programming/Code blocks/WeatherLogSystem2/Bst.h
+  'void Bst< T >::PreOrder(Node< T > *p, void(*visit)(T &)) const' at line 255 of file D:/programming/Code blocks/WeatherLogSystem2/Bst.h
+D:/programming/Code blocks/WeatherLogSystem2/Bst.h:669: warning: no matching class member found for 
+  template < T >
+  void Bst< T >::PostOrderTraversal(void(*visit)(T &item)) const
+Possible candidates:
+  'void Bst< T >::PostOrderTraversal() const' at line 116 of file D:/programming/Code blocks/WeatherLogSystem2/Bst.h
+  'void Bst< T >::PostOrderTraversal(void(*visit)(T &)) const' at line 137 of file D:/programming/Code blocks/WeatherLogSystem2/Bst.h
+D:/programming/Code blocks/WeatherLogSystem2/Bst.h:675: warning: no matching class member found for 
+  template < T >
+  void Bst< T >::PostOrder(Node< T > *p, void(*visit)(T &item)) const
+Possible candidates:
+  'void Bst< T >::PostOrder(Node< T > *p) const' at line 239 of file D:/programming/Code blocks/WeatherLogSystem2/Bst.h
+  'void Bst< T >::PostOrder(Node< T > *p, void(*visit)(T &)) const' at line 263 of file D:/programming/Code blocks/WeatherLogSystem2/Bst.h
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Weather.h:19:10: warning: non-portable path to file '"Date.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/DATE.H:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Weather.h:19:10: warning: non-portable path to file '"Date.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/DATE.H:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Date.h:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Date.h:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/FunctionHelper.cpp:10:10: warning: non-portable path to file '"FunctionHelper.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Bst.h:14:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Time.h:20:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/TimeTest.cpp:18:10: warning: non-portable path to file '"Time.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/TIME.H:20:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Validator.h:13:10: fatal error: 'regex' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Validator.h:13:10: fatal error: 'regex' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Vector.h:14:10: fatal error: 'vector' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Weather.h:19:10: warning: non-portable path to file '"Date.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/DATE.H:15:10: fatal error: 'iostream' file not found [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/Weather.h:19:10: warning: non-portable path to file '"Date.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path] [clang]
+error: D:/programming/Code blocks/WeatherLogSystem2/DATE.H:15:10: fatal error: 'iostream' file not found [clang]
+D:/programming/Code blocks/WeatherLogSystem2/FunctionHelper.h:72: warning: argument 'monthInput' of command @param is not found in the argument list of FunctionHelper::FindsPCCForGivenMonth(map< int, map< int, map< int, Bst< Weather > > > > &windLog, int month)
+D:/programming/Code blocks/WeatherLogSystem2/FunctionHelper.h:72: warning: The following parameter of FunctionHelper::FindsPCCForGivenMonth(map< int, map< int, map< int, Bst< Weather > > > > &windLog, int month) is not documented:
+  parameter 'month'
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:122: warning: argument 'array' of command @param is not found in the argument list of Logic::AverageAirTemperatureMonth(const map< int, map< int, map< int, Bst< Weather > > > > &windLog, const int month, const int year)
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:122: warning: The following parameter of Logic::AverageAirTemperatureMonth(const map< int, map< int, map< int, Bst< Weather > > > > &windLog, const int month, const int year) is not documented:
+  parameter 'windLog'
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:88: warning: argument 'array' of command @param is not found in the argument list of Logic::AverageWindSpeedMonth(const map< int, map< int, map< int, Bst< Weather > > > > &windLog, const int month, const int year)
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:88: warning: The following parameter of Logic::AverageWindSpeedMonth(const map< int, map< int, map< int, Bst< Weather > > > > &windLog, const int month, const int year) is not documented:
+  parameter 'windLog'
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:62: warning: argument 'WindLog' of command @param is not found in the argument list of Logic::LoadDataFileCSV(ifstream &inputFile, map< int, map< int, map< int, Bst< Weather > > > > &windLog)
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:62: warning: The following parameter of Logic::LoadDataFileCSV(ifstream &inputFile, map< int, map< int, map< int, Bst< Weather > > > > &windLog) is not documented:
+  parameter 'windLog'
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:132: warning: argument 'array' of command @param is not found in the argument list of Logic::SumSolarRadiationMonth(const map< int, map< int, map< int, Bst< Weather > > > > &windLog, const int month, const int year)
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:132: warning: The following parameter of Logic::SumSolarRadiationMonth(const map< int, map< int, map< int, Bst< Weather > > > > &windLog, const int month, const int year) is not documented:
+  parameter 'windLog'
+D:/programming/Code blocks/WeatherLogSystem2/Logic.h:166: warning: The following parameter of Logic::WriteAppendFile(const string &fileName, const string &output) is not documented:
+  parameter 'fileName'

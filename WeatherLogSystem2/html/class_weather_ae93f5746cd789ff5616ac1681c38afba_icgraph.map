@@ -1,0 +1,5 @@
+<map id="Weather::GetDate" name="Weather::GetDate">
+<area shape="rect" id="Node000001" title="Get m_date." alt="" coords="234,5,360,37"/>
+<area shape="rect" id="Node000002" href="$class_logic.html#a43734e6d30d0a72995399864499b261d" title="Inserts tempLog into wind log." alt="" coords="5,5,186,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,24,186,24,186,19,218,19"/>
+</map>

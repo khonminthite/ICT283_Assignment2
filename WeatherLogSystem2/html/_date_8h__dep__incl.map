@@ -1,0 +1,41 @@
+<map id="Date.h" name="Date.h">
+<area shape="rect" id="Node000001" title="Class for storing date values. Date data are split into day,month and year and stored as unsigned int..." alt="" coords="343,5,402,37"/>
+<area shape="rect" id="Node000002" href="$_date_8cpp.html" title=".cpp file for Date.h" alt="" coords="140,85,213,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="330,42,215,87,213,82,328,37"/>
+<area shape="rect" id="Node000003" href="$_date_test_8cpp.html" title="Unit test for Date.h." alt="" coords="237,85,335,117"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="346,49,304,87,301,83,343,45"/>
+<area shape="rect" id="Node000004" href="$_logic_8h.html" title="A helper class for main.cpp Handles task such as displaying menu, converting of data types,..." alt="" coords="498,244,562,276"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="372,52,371,85,373,122,382,160,400,195,415,208,441,221,499,245,497,250,438,226,413,212,396,198,377,162,368,123,365,85,366,52"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html" title="Controls the cin and cout of the program." alt="" coords="718,404,793,435"/>
+<area shape="poly" id="edge22_Node000001_Node000008" title=" " alt="" coords="418,25,534,43,673,73,738,94,791,118,828,146,838,162,842,179,842,262,834,305,816,346,793,380,772,405,768,401,789,376,811,343,829,304,837,261,837,179,833,164,824,150,789,123,736,99,672,79,533,48,417,30"/>
+<area shape="rect" id="Node000011" href="$_weather_8h.html" title="Class for storing Wind log details such as date, time, wind speed, solar radiation and air temperatur..." alt="" coords="549,85,631,117"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="418,36,550,82,548,87,416,41"/>
+<area shape="rect" id="Node000005" href="$_function_helper_8h.html" title="Each function here represents a option for the program. In addition, the function to display the menu..." alt="" coords="456,324,575,356"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="527,292,521,324,516,323,522,291"/>
+<area shape="poly" id="edge10_Node000004_Node000008" title=" " alt="" coords="557,285,595,319,640,353,683,380,724,401,721,405,680,384,636,358,592,323,554,289"/>
+<area shape="rect" id="Node000009" href="$_logic_8cpp.html" title=".cpp file for LogicHelper" alt="" coords="354,324,431,356"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="491,286,421,326,418,321,489,282"/>
+<area shape="rect" id="Node000010" href="$_logic_test_8cpp.html" title="Unit Test for Logic.h." alt="" coords="650,324,752,356"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="577,280,669,321,666,326,575,285"/>
+<area shape="rect" id="Node000006" href="$_function_helper_8cpp.html" title=".cpp for FunctionHelper.h" alt="" coords="313,404,446,435"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="477,366,407,405,405,401,475,361"/>
+<area shape="rect" id="Node000007" href="$_function_helper_test_8cpp.html" title="Unit test for FunctionHelper.h." alt="" coords="470,404,628,435"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="530,369,545,402,540,404,525,371"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="577,358,718,404,717,409,576,363"/>
+<area shape="poly" id="edge17_Node000011_Node000004" title=" " alt="" coords="630,124,648,139,663,157,670,177,664,198,643,221,617,238,589,249,563,256,561,251,587,244,614,233,640,217,660,195,664,177,658,160,644,143,626,128"/>
+<area shape="poly" id="edge21_Node000011_Node000008" title=" " alt="" coords="646,119,680,137,709,163,744,209,762,252,768,298,766,356,760,404,755,403,761,355,762,298,756,253,739,212,705,166,677,142,644,124"/>
+<area shape="poly" id="edge18_Node000011_Node000010" title=" " alt="" coords="640,122,665,140,684,163,701,206,708,251,708,293,706,324,700,323,703,293,703,252,696,207,680,166,661,144,637,127"/>
+<area shape="rect" id="Node000012" href="$_bst_weather_helper_8h.html" title="Holds all the functions that is used as parameter for BST functions in the program." alt="" coords="197,165,335,196"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="535,118,330,167,329,161,534,113"/>
+<area shape="rect" id="Node000016" href="$_weather_8cpp.html" title=".ccp for Weather.h" alt="" coords="410,165,506,196"/>
+<area shape="poly" id="edge19_Node000011_Node000016" title=" " alt="" coords="553,127,485,166,482,162,550,122"/>
+<area shape="rect" id="Node000017" href="$_weather_test_8cpp.html" title="Unit Test for Weather." alt="" coords="530,165,650,196"/>
+<area shape="poly" id="edge20_Node000011_Node000017" title=" " alt="" coords="593,132,593,164,587,164,587,132"/>
+<area shape="poly" id="edge16_Node000012_Node000004" title=" " alt="" coords="337,199,487,242,499,246,497,251,485,247,336,204"/>
+<area shape="rect" id="Node000013" href="$_bst_test_8cpp.html" title=" " alt="" coords="207,244,298,276"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="263,212,258,244,253,244,258,211"/>
+<area shape="rect" id="Node000014" href="$_bst_weather_helper_8cpp.html" title=".cpp file for BstWeatherHelper.h" alt="" coords="322,244,474,276"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="306,202,374,241,371,246,303,206"/>
+<area shape="rect" id="Node000015" href="$_bst_weather_helper_test_8cpp.html" title="Unit Test for BstWeatherHelper.h." alt="" coords="5,244,183,276"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="220,206,129,246,126,241,217,201"/>
+</map>

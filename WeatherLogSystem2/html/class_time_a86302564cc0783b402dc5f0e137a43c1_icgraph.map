@@ -1,0 +1,15 @@
+<map id="Time::GetMinute" name="Time::GetMinute">
+<area shape="rect" id="Node000001" title="Get the Minute object." alt="" coords="270,61,387,93"/>
+<area shape="rect" id="Node000002" href="$_time_8cpp.html#a1055bc137c2e59ddb048b050b5c21ba6" title="Operator overload of &lt; comparison. Compares hour and minute." alt="" coords="142,5,218,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,58,218,38,219,33,271,53"/>
+<area shape="rect" id="Node000004" href="$_time_8cpp.html#add0766af9c369e15f83a83e22418300f" title="Overloaded operator for ==. Equal Time." alt="" coords="138,61,222,93"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="255,80,222,80,222,75,255,75"/>
+<area shape="rect" id="Node000006" href="$_time_8cpp.html#a55ab76b3da394f2f40f0be206bf38de7" title="Operator overload of &gt; comparison. Compares hour and minute." alt="" coords="142,117,218,149"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="271,102,219,121,218,116,269,97"/>
+<area shape="rect" id="Node000003" href="$_weather_8cpp.html#a56e37e0c6c11998dedd13533cc182a9b" title="Operator overload of &lt; comparison. Compares Weather." alt="" coords="9,5,86,37"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,24,86,24,86,19,126,19"/>
+<area shape="rect" id="Node000005" href="$_weather_8cpp.html#afda7cef7b78f626bb02a90864ffed2d6" title="Operator overload of ==. Equate Weather." alt="" coords="5,61,90,93"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="122,80,90,80,90,75,122,75"/>
+<area shape="rect" id="Node000007" href="$_weather_8cpp.html#aa355c94d0af4261225d799019d9f71aa" title="Operator overload of &gt; comparison. Compares Weather." alt="" coords="9,117,86,149"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="126,136,86,136,86,131,126,131"/>
+</map>

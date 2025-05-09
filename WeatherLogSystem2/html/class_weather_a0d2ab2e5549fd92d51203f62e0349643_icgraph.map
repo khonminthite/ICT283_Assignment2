@@ -1,0 +1,5 @@
+<map id="Weather::GetSolarRadiation" name="Weather::GetSolarRadiation">
+<area shape="rect" id="Node000001" title="Get m_solarRad." alt="" coords="259,16,442,48"/>
+<area shape="rect" id="Node000002" href="$class_bst_weather_helper.html#abc1298fc2eee5f220dc84968e6a98484" title="Get the Weather object&#39;s Solar Rad." alt="" coords="5,5,211,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,34,211,34,211,29,243,29"/>
+</map>

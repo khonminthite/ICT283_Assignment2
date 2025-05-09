@@ -1,0 +1,5 @@
+<map id="Weather::GetAirTemperature" name="Weather::GetAirTemperature">
+<area shape="rect" id="Node000001" title="Get m_airTemp." alt="" coords="259,16,446,48"/>
+<area shape="rect" id="Node000002" href="$class_bst_weather_helper.html#aa608458faddfac9653580bc7163d4ddb" title="Get the Weather object&#39;s Air Temp." alt="" coords="5,5,211,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,34,211,34,211,29,243,29"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="operator&lt;" name="operator&lt;">
+<area shape="rect" id="Node000001" title="Operator overload of &lt; comparison. Compares hour and minute." alt="" coords="5,33,82,65"/>
+<area shape="rect" id="Node000002" href="$class_time.html#aaf65e0dc73514ffab9b3dd643cef9bdb" title="Get the Hour object." alt="" coords="136,5,241,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,39,120,32,121,37,83,44"/>
+<area shape="rect" id="Node000003" href="$class_time.html#a86302564cc0783b402dc5f0e137a43c1" title="Get the Minute object." alt="" coords="130,61,247,93"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="83,54,115,60,114,66,82,59"/>
+</map>

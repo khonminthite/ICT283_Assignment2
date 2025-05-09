@@ -1,0 +1,5 @@
+<map id="BstWeatherHelper::GetWeatherWindSpeed" name="BstWeatherHelper::GetWeatherWindSpeed">
+<area shape="rect" id="Node000001" title="Get the Weather object&#39;s Wind Speed." alt="" coords="5,5,211,58"/>
+<area shape="rect" id="Node000002" href="$class_weather.html#a65e49d86fc7d5ac15d7a5d3a3cc3b6e5" title="Get m_windSpeed." alt="" coords="259,16,425,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,29,243,29,243,34,211,34"/>
+</map>

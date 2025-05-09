@@ -1,0 +1,16 @@
+<map id="Logic.h" name="Logic.h">
+<area shape="rect" id="Node000001" title="A helper class for main.cpp Handles task such as displaying menu, converting of data types,..." alt="" coords="376,5,440,37"/>
+<area shape="rect" id="Node000002" href="$_function_helper_8h.html" title="Each function here represents a option for the program. In addition, the function to display the menu..." alt="" coords="203,85,322,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="367,47,292,87,290,82,365,42"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html" title="Controls the cin and cout of the program." alt="" coords="344,165,419,196"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="405,53,399,85,386,165,381,164,393,85,399,52"/>
+<area shape="rect" id="Node000006" href="$_logic_8cpp.html" title=".cpp file for LogicHelper" alt="" coords="408,85,485,117"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="425,50,442,84,437,86,420,52"/>
+<area shape="rect" id="Node000007" href="$_logic_test_8cpp.html" title="Unit Test for Logic.h." alt="" coords="509,85,611,117"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="452,42,532,82,529,87,450,47"/>
+<area shape="rect" id="Node000003" href="$_function_helper_8cpp.html" title=".cpp for FunctionHelper.h" alt="" coords="5,165,139,196"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="212,125,110,167,108,162,210,120"/>
+<area shape="rect" id="Node000004" href="$_function_helper_test_8cpp.html" title="Unit test for FunctionHelper.h." alt="" coords="162,165,321,196"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="257,132,248,165,243,164,252,131"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="300,123,360,162,357,166,297,127"/>
+</map>

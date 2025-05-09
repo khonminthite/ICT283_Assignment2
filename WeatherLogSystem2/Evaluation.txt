@@ -1,0 +1,13 @@
++ Able to read data file of user's choice by reading met_index.txt
++ Able to find and print average wind speed and standard deviation of average wind speed of user's choice of month and year based on data file using function 1
++ Able to find and print average ambient air temperature and standard deviaiton of ambient air temperature of each months of user's choice of year based on data file using function 2
++ Able to calculate sPCC of three different combinations of user's choice of month for all years loaded using function 3
++ Able to outfile file with data of average wind speed, standard deviation of average wind speed, average ambient air temperature, standard deviation of ambient air temperature and total solar radiation of each months of user's choice of year based on data file using function 4
++ Able to convert wind speed from m/s to km/h
++ Able to convert W/10min/m^2 to kWh/m^2
++ Able to validate all data file's expected input and store in memory
++ Able to validate all user input to ensure input is expected
++ Able to clear data and reload data from data/data_source.txt using function 5.
++ Uses Weather Object, BST and map to store data
+
+- There are no requirements that this program do not meet

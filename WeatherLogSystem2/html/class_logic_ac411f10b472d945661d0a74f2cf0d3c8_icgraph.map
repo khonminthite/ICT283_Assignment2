@@ -1,0 +1,7 @@
+<map id="Logic::ConvertWindMStoKMH" name="Logic::ConvertWindMStoKMH">
+<area shape="rect" id="Node000001" title="Converts wind speed m/s to km/h." alt="" coords="305,55,498,86"/>
+<area shape="rect" id="Node000002" href="$class_function_helper.html#a344221db434604fec1033bb6899f9677" title="Function 1." alt="" coords="5,5,257,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,57,257,52,257,47,290,52"/>
+<area shape="rect" id="Node000003" href="$class_function_helper.html#ad50f3d129ea13bb1f532f3e19b44af60" title="Function 4." alt="" coords="33,83,229,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="289,89,229,98,229,92,289,84"/>
+</map>

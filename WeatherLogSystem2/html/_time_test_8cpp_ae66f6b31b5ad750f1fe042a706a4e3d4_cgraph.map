@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,61,55,93"/>
+<area shape="rect" id="Node000002" href="$class_time.html#acfecd841a3bbcfdfa5f1ce739d5cb829" title="Set the Hour object." alt="" coords="109,5,213,37"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,64,107,41,109,46,56,69"/>
+<area shape="rect" id="Node000003" href="$class_time.html#a07255d012c7062bf4d8d93a0746e42ba" title="Set the Minute object." alt="" coords="103,61,219,93"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,75,87,75,87,80,55,80"/>
+<area shape="rect" id="Node000004" href="$class_time.html#ae8f940eac879a9c1018bf8e48bb514aa" title="Construct a new Time object." alt="" coords="118,117,204,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,85,109,108,107,113,54,90"/>
+</map>
